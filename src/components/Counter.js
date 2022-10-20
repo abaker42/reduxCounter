@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux'; // allows data to be sent to and fro store
-import { counterActions } from '../store';
+import { counterActions } from '../store/counterDux';
 import classes from './Counter.module.css';
 
 const Counter = () => {
